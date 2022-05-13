@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChallengeFragment"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:text="Топ 7 състезатели"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_marginTop="4dp"/>
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo"/>
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:src="@drawable/first" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/second"
+            android:layout_marginStart="30dp"/>
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/first"
+                android:textStyle="bold"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/firstPoints"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/third"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/second"
+            android:textStyle="bold"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/third"
+            android:textStyle="bold"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginStart="100dp"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/secondPoints"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/thirdPoints"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:paddingStart="10dp"
+        android:background="@drawable/purple_border_btn"
+        android:layout_marginHorizontal="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/fourth"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/fourthPoints"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:background="@drawable/purple_border_btn"
+        android:layout_marginHorizontal="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/fifth"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/fifthPoints"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:background="@drawable/purple_border_btn"
+        android:layout_marginHorizontal="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/sixth"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/sixthPoints"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:background="@drawable/purple_border_btn"
+        android:layout_marginHorizontal="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/seventh"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/seventhPoints"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</LinearLayout>

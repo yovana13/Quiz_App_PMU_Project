@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AccountFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/purple_horizontal_bg"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avatar_circle"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/tvNameAndSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Име Фамилия"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test@gmail.com"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ниво по категории:"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/title"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:weightSum="4">
+        <LinearLayout
+            android:id="@+id/historyLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/history" />
+
+            <TextView
+                android:id="@+id/historyLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Ниво 1"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/languageLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/language"/>
+                <TextView
+                    android:id="@+id/langaugeLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Ниво 1"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/literatureLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/literature"/>
+                <TextView
+                    android:id="@+id/literatureLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Ниво 1"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/geographyLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/geography"/>
+                <TextView
+                    android:id="@+id/geographyLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Ниво 1"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+    <!--    <LinearLayout-->
+<!--        android:id="@+id/header"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Space-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1" />-->
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Град: София"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/tvCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Държава: България"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvPoints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Общи точки: 52"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/changePasswordBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Промяна на парола"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/round_btn_purple"
+        android:textColor="@color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Излез от профила си"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:textColor="#A85CF9"
+        android:background="@drawable/purple_border_btn"/>
+
+</LinearLayout>
